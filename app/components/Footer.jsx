@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,43 +8,27 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 
 
-          {/* Logo and Description */}
-          {/* <div className="col-span-1 md:col-span-2">
-
-            {/* <Link href="/" className="text-2xl font-bold">
-              Logo
-            </Link> */}
-          {/* <Link href="/">
-              <img
-                src="/Images/logo3.svg"
-                alt="Logo"
-                className="h-50 w-auto align-middle"
-                style={{ marginTop: "-50px" }}
-              />
-            </Link> */}
-
-          {/* <p className="mt-4 text-sm text-muted-foreground">
-              Your trusted partner in digital solutions. We help businesses grow and
-              succeed in the digital age.
-            </p>
-          </div> */}
-
-
-
-
           <div className="col-span-1 md:col-span-2 flex flex-col md:flex-row ">
 
             {/* Logo Image */}
             <Link href="/" className="inline-block">
-              <img
+              {/* <img
                 src="/Images/logo3.svg"
                 alt="Logo"
                 className="h-50 w-auto"
+              /> */}
+              <Image
+                src="/Images/logo3.svg"
+                alt="Logo"
+                width={300}
+                height={200}
               />
             </Link>
 
+
+
             {/* Text next to logo */}
-            <p className="text-sm text-muted-foreground md:mt-20">
+            <p className="text-sm text-muted-foreground md:mt-13">
               Your trusted partner in digital solutions. We help businesses grow and succeed in the digital age.
             </p>
           </div>
