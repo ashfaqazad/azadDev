@@ -18,7 +18,7 @@ export default function Home() {
             We are a team of full stack developers crafting scalable, fast, and secure web apps using MERN stack and Next.js. Our mission is to empower businesses through modern, efficient digital solutions.
           </p>
         </div>
-        <img src="/images/teamwork.webp" alt="Team at work" className="rounded-lg shadow w-full h-[300px] object-cover" />
+        <img src="/Images/teamwork.webp" alt="Team at work" className="rounded-lg shadow w-full h-[300px] object-cover" />
       </section>
 
       {/* Section 2 */}
