@@ -70,7 +70,7 @@ export default function WebDesignPage() {
 
         {/* Right Side */}
         <img
-          src="/images/uiux.png"
+          src="/Images/uiux.png"
           alt="Web Design Illustration"
           className="w-full h-[320px] object-cover rounded-xl shadow-xl border border-gray-700"
         />
